@@ -1,0 +1,65 @@
+.comentarioContenedor {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#cardPerfil p{
+    margin-bottom: 0px;
+}
+
+#datosSolicitud, #comentarioSolicitud {
+    text-align: center;
+    color: #ffff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#datosSolicitud{
+    border-radius: 10px 0px 0px 0px;
+}
+#comentarioSolicitud{
+    border-radius: 0px 10px 0px 0px;
+}
+
+#footerComentario p {
+    background-color: #0072bb;
+    border-radius: 0px 0px 6px 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0px;
+}
+
+#officeComent{
+    border-left: 4px solid #37bbed;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#userComent{
+    border-left: 4px solid #101010;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#dateComent{
+    font-size: 20px;
+}
+
+#separadorComentario{
+width: 90%;
+margin: auto;
+border: 1px solid black;
+opacity: 30%;
+}
+
+
+@media (min-width: 992px) {
+
+    .comentarioContenedor {
+      padding-bottom: 180px;
+    }
+  }

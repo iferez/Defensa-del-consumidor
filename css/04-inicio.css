@@ -1,0 +1,44 @@
+.inicioContenedor {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+#portalBienvenida i{
+    font-size: 48px;
+}
+
+#portal .bienvenidaPortal{
+  font-size: 36px;
+  font-weight: 500;
+}
+
+
+#cardInicio {
+  padding: 20px;
+  background: #f7f7f7 !important;
+  border-color: #f7f7f7 !important;
+}
+
+@media (min-width: 992px) {
+  .inicioContenedor {
+    padding-bottom: 90px;
+  }
+
+  #cardInicio {
+    padding: 40px;
+    background: #f7f7f7 !important;
+    border-color: #f7f7f7 !important;
+  }
+}
+
+@media (min-width: 1380px) {
+  .inicioContenedor {
+    padding-bottom: 180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .inicioContenedor {
+    padding-bottom: 220px;
+  }
+}

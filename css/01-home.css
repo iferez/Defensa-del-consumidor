@@ -1,0 +1,149 @@
+@import "headerFooter.css";
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.banner h1 {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 6px #000000ad;
+}
+
+.modulosDiv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.modulosDiv h3{
+font-size: 18px;
+}
+
+/*CARDS*/
+
+.modulosDiv .card a {
+  text-decoration: none;
+}
+
+.modulosDiv .card {
+    background-color: #37bbed;
+    transition: 0.2s;
+  }
+
+.modulosDiv .card:hover {
+    background-color: #9bddf6;
+    transition: 0.3s;
+  }
+
+.modulosDiv .card-header {
+  height: 80px;
+  border-bottom: none;
+}
+
+.modulosDiv .card-body {
+  height: 60px;
+  border-top: none;
+  border-bottom: none;
+  background-color: #ffff;
+  padding: 0.5rem;
+}
+
+.modulosDiv .card-footer {
+    padding: 4px;
+    border-top: none;
+}
+
+.modulosDiv .card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #030303;
+  margin: 0px;
+}
+
+.modulosDiv .card i {
+  font-size: 60px;
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .modulosDiv h3{
+    font-size: 22px;
+    }
+
+  .modulosDiv .card-title {
+    font-size: 20px;
+  }
+
+  .modulosDiv .card-body {
+    height: 70px;
+    padding: 0.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner h1 {
+    font-size: 44px;
+    letter-spacing: 1px;
+  }
+
+  .modulosDiv {
+    padding-top: 48px;
+    padding-bottom: 140px;
+  }
+
+  .modulosDiv h3{
+    font-size: 24px;
+    }
+
+  .modulosDiv .card-title {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .modulosDiv .card-header {
+    height: 100px;
+  }
+
+  .modulosDiv .card-footer {
+    padding: 6px;
+
+}
+
+  .modulosDiv .card-body {
+    height: 70px;
+    padding: 0.8rem;
+  }
+
+
+  .modulosDiv .card i {
+    font-size: 90px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .banner h1 {
+    font-size: 56px;
+  }
+
+  .modulosDiv {
+    padding-bottom: 160px;
+  }
+
+  .modulosDiv .card-body {
+    height: 80px;
+    padding: 1rem;
+  }
+}

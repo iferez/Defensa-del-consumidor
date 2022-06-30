@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  color: #333333;
+}
+
+.text-ministerio {
+  color: #37bbed;
+}
+
+.bg-ministerio {
+  background-color: #37bbed;
+}
+
+.bg-ministerio-azul {
+  background-color: #0072bb;
+}
+
+.bg-ministerio-gris {
+  background-color: #d0d0d0;
+}
+
+.bg-filtro {
+  background-color: #545454;
+}
+
+.form-control {
+  background-size: 20px 18px !important;
+  height: 48px !important;
+  border-radius: 0.5rem !important;
+}
+
+.form-select {
+  background-size: 20px 18px !important;
+  height: 48px !important;
+  border-radius: 0.5rem !important;
+}
+
+input[type="file"] {
+  height: 38px !important;
+}
+
+#buscadorSolicitud, #emailInput {
+  border-radius: 0.5rem 0rem 0rem 0.5rem !important;
+}
+
+.form-check .form-check-input {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 10px;
+}
+
+.form-check-label {
+  padding-top: 6px;
+}
+
+.form-check-input:checked {
+  background-color: #2897d4 !important;
+  border-color: #2897d4 !important;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #37bbed !important;
+  outline: 0;
+  box-shadow: 0px 0px 8px #37bbed !important;
+}
+
+.form-select:focus {
+  color: #212529;
+  background-color: #f2f2f2;
+  border-color: #37bbed !important;
+  outline: 0;
+  box-shadow: 0px 0px 8px #37bbed !important;
+}
+
+.nav {
+  font-size: 14px;
+}
+
+/* TITULO PRINCIPAL */
+
+#portal {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#portal .icono-arg-carrito {
+  font-size: 48px;
+  padding-right: 6px;
+}
+
+.movilTitulo {
+  padding-left: 48px;
+}
+
+/* BOTONES */
+.btn-primary {
+  background-color: #0072bb !important;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+}
+
+.btn-primary:hover {
+  background-color: #0b5d90 !important;
+  color: #ffff;
+}
+
+.btn-secondary {
+  background: #707070;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+}
+
+.btn-success {
+  background: #2e7d33;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+}
+
+.btn-warning {
+  background-color: #f9a822 !important;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+}
+
+.btn-danger {
+  background-color: #be2626 !important;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+}
+
+.btn-light {
+  font-weight: bold;
+  background-color: #dddddd;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 20px !important;
+}
+
+.btn-light:hover {
+  background-color: #cbcbcb;
+}
+
+.btn-info {
+  background-color: #f2f2f2;
+  border: 1px solid #37bbed;
+  font-weight: bold;
+  color: #37bbed;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+.btn-info:hover {
+  background-color: #37bbed;
+  color: #ffff;
+}
+
+.btn-eliminar {
+  background-color: #f7f7f7 !important;
+  color: #c62828;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+  border: 2px solid #c62828;
+}
+
+.btn-eliminar:hover {
+  background-color: #ededed !important;
+  color: #c62828;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+  border: 2px solid #c62828;
+}
+
+.btn-agregar {
+  background-color: #37bbed;
+  font-weight: bold;
+  color: #ffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+}
+
+.btn-agregar:hover {
+  color: #ffff;
+  background-color: #32aad6;
+}
+
+.btn-filtros {
+  background-color: #0072bb !important;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 25px !important;
+}
+
+.btn-filtros:hover {
+  background-color: #0b5d90 !important;
+  color: #ffff;
+}
+
+.btn-search {
+  font-weight: bold;
+  background-color: #dddddd;
+  font-size: 18px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 16px !important;
+}
+
+.btn-search:hover {
+  background-color: #cbcbcb;
+}
+
+.btn-solicitud {
+  background-color: #0072bb !important;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 16px !important;
+  letter-spacing: 1px !important;
+  padding: 8px 20px !important;
+}
+
+.btn-solicitud:hover {
+  background-color: #0b5d90 !important;
+  color: #ffff;
+}
+
+.regularFw {
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  #portal {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  #portal h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  #portal .icono-arg-carrito {
+    font-size: 52px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .userFont {
+    font-size: 22px !important;
+  }
+
+  .btn-primary {
+    font-size: 18px !important;
+    padding: 10px 80px !important;
+  }
+
+  .btn-secondary {
+    font-size: 18px !important;
+    padding: 10px 40px !important;
+  }
+
+  .btn-success {
+    font-size: 18px !important;
+    padding: 10px 60px !important;
+  }
+
+  .btn-warning {
+    font-size: 18px !important;
+    padding: 10px 40px !important;
+  }
+
+  .btn-danger {
+    font-size: 18px !important;
+    padding: 10px 40px !important;
+  }
+
+  .btn-light {
+    font-size: 18px !important;
+    padding: 10px 30px !important;
+  }
+
+  .btn-info {
+    font-size: 18px !important;
+    padding: 10px 40px !important;
+  }
+
+  .btn-eliminar {
+    font-size: 18px !important;
+    padding: 8px 25px !important;
+    border: 3px solid #c62828;
+  }
+
+  .btn-eliminar:hover {
+    font-size: 18px !important;
+    padding: 8px 25px !important;
+    border: 3px solid #c62828;
+  }
+
+  .btn-agregar {
+    font-size: 18px !important;
+    padding: 10px 60px !important;
+  }
+
+  .btn-filtros {
+    font-size: 18px !important;
+    padding: 8px 30px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px !important;
+  }
+
+}
+
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px !important;
+  }
+
+  #portal {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  #portal h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  #portal .icono-arg-carrito {
+    font-size: 56px;
+    padding-right: 12px;
+  }
+
+  .nav {
+    font-size: 16px;
+  }
+}
+

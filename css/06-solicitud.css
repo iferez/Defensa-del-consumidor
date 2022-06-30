@@ -1,0 +1,51 @@
+.solicitudContenedor {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+#headerSolicitud {
+  background-color: #37bbed;
+  border-radius: 6px 6px 0px 0px;
+
+}
+
+#headerSolicitud .fechaSolicitud {
+  background-color: #37bbed;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 6px 6px 0px 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin: 0px;
+}
+
+#headerSolicitud .estadoSolicitud {
+  background-color: #3c788f;
+  color: #ffff;
+  border-radius: 0px 6px 0px 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  margin: 0px;
+}
+
+#headerSolicitud .estadoSolicitud:hover {
+  background-color: #2c5f74;
+  color: #ffff;
+}
+
+
+
+@media (min-width: 992px) {
+  #collapseFiltro input {
+    width: 230px;
+  }
+
+  .solicitudContenedor {
+    padding-bottom: 120px;
+  }
+}

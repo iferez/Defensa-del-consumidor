@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/icono-arg.css">
+    <script src="https://kit.fontawesome.com/d741def0c1.js" crossorigin="anonymous"></script>
+
+    <script src="js/validaciones.js"></script>
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header id="header-ministerioDesarrollo">
+
+        <div class="container">
+            <div class="row">
+                <div id="headerColUno" class="col-8 d-flex align-items-center">
+                    <a href="#">
+                        <img src="img/logoMinisterioBlanco.svg" class="logoHeader" alt="Logo Ministerio">
+                    </a>
+                </div>
+
+                <div id="headerColDos" class="col-4 d-flex justify-content-end align-items-center userMenu">
+                    <a href="" class="btn-userMenuHome">
+                        <i class="icono-arg-casa-negativo d-md-none"></i>
+                        <span class="d-none d-md-inline">Inicio</span>
+                    </a>
+
+                    <a href="" class="btn-userMenuSolicitud mx-2 mx-md-4">
+                        <i class="fa-solid fa-file-pen d-md-none"></i>
+                        <span class="d-none d-md-inline">Mis solicitudes</span>
+                    </a>
+
+                    <a class="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person-fill"></i>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li id="datosUsuario">
+                            <span class="fw-bold"> Nombre Usuario - </span>
+                            <span> 20-67465536-6 </span> <br>
+                            <span> usuario@produccion.gob.ar </span>
+                        </li>
+
+                        <li><a href=""><i class="fa-solid fa-id-card me-3"></i> Mi Perfil</a></li>
+
+                        <hr>
+
+                        <li><a href=""><i class="fa-solid fa-arrow-right-from-bracket me-3"></i> Cerrar la sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="container">
+        <div id="navbar">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-ministerio ps-0 pe-2" href="#">Portal de Autogestión /</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-ministerio ps-0 pe-2" href="#">Defensa al Consumidor /</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold ps-0 pe-2" href="#">Formulario</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="perfilContenedor">
+
+            <div class="container">
+                <h2 id="portal" class="text-ministerio fw-bold mb-4"><i class="icono-arg-carrito"></i> Portal de Defensa
+                    <br class="d-md-none"> <span class="movilTitulo ps-md-0">al Consumidor</span>
+                </h2>
+            </div>
+
+            <section id="condicionesForm" class="bg-light py-3">
+
+                <div class="row justify-content-center my-4 pt-2">
+                    <div class="col-11 col-md-8">
+                        <h4 class="fw-bold">Condiciones generales</h4>
+                        <ul class="listado">
+                            <li>Este formulario debe ser utilizado al solo efecto de registrar formalmente una denuncia.
+                                Si necesitás hacer una consulta, podés hacerlo comunicándote al 0800-666-1518 de 9 a 18
+                                hs. o por correo electrónico a la casilla consultas@consumidor.gob.ar</li>
+                            <li>Recordá que los datos que ingreses en este formulario deben ser reales.</li>
+                            <li> Si tenés entre 13 y 17 años, podés ingresar tu reclamo, contamos con un Equipo de
+                                Abogadas y Abogados de Consumidores Hipervulnerables, que te podrá orientar, asesorar,
+                                brindar asistencia y acompañar de manera personalizada durante todo el proceso.</li>
+                            <li>Si sos adulto mayor, persona con discapacidad, migrante, persona en situación de
+                                vulnerabilidad socioeconómica, turista, miembro de comunidades indígenas, del colectivo
+                                LGBT+, vivís en barrios populares o zonas rurales y tu situación fue especialmente
+                                vulnerada en la relación de consumo, por favor especificalo en el texto del reclamo.
+                            </li>
+                        </ul>
+
+                        <div id="cardPerfil" class="my-4 shadow-sm">
+                            <div id="headerPerfil">
+                                <p>Pepe Lopéz</p>
+                            </div>
+
+                            <div id="bodyPerfil" class="row my-4">
+                                <div class="col-md-6">
+                                    <p class="fw-bold ps-2 ps-md-5 pe-2 my-2">DNI <span
+                                            class="ps-4 my-2 fw-light">36666666</span></p>
+
+                                    <p class="fw-bold ps-2 ps-md-5 pe-2 my-2">CUIT/CUIL <span
+                                            class="ps-4 my-2 fw-light">26-66666666-6</span></p>
+
+                                    <p class="fw-bold ps-2 ps-md-5 pe-2 my-2">SEXO <span
+                                            class="px-4 my-2 fw-light">Masculino</span></p>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <p class="fw-bold ps-2 ps-md-0  mb-2">Correo electrónico</p>
+                                    <p class="ps-2 ps-md-0 ">plopez@produccion.gob.ar</p>
+                                    <span class="volverPerfil">En caso de que éste dato no sea correcto, por favor <br>
+                                        dirijite a tú <a href="">perfil de usuario</a> para actualizarlo.</span>
+                                </div>
+                            </div>
+
+                            <div id="footerPerfil" class="mt-3">
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section id="formulario">
+
+                <div class="row justify-content-center mt-5">
+                    <div class="col-11 col-md-6">
+
+                        <h2 class="fw-bold mt-4">Completá el formulario</h2>
+                        <hr class="my-4">
+
+                        <div id="proveedor" class="row">
+                            <h2 class="fw-bold text-ministerio mb-3">01. Datos del proveedor</h2>
+
+                            <div class="col-12 bg-light py-3">
+                                <h3 class="fw-bold mt-3">Datos del proveedor del producto o servicio</h3>
+                                <div class="row">
+                                    <div class="col-6 mt-4">
+                                        <label class="form-label" for="nombre">Nombre/s</label>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div class="col-6 mt-4">
+                                        <label class="form-label" for="cuilcuit">CUIL/CUIT</label>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="form-label" for="calle">Calle</label>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <label class="form-label" for="calle">Altura</label>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <label class="form-label" for="piso">Piso</label>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <label class="form-label" for="dpto">Dpto.</label>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <label class="form-label" for="cp">CP</label>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label" for="localidadprovincia">Localidad /
+                                            Provincia</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Seleccione</option>
+                                            <option >Seleccione</option>
+                                            <option >Seleccione</option>
+                                            <option >Seleccione</option>
+                                            <option >Seleccione</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-12 text-end">
+                                        <button class="btn btn-eliminar rounded-pill my-3">Eliminar</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="text-ministerio mt-4 mb-3">Has click en el botón "añadir" para agregar los
+                                datos
+                                de un nuevo proveedor.</p>
+                            <div class="text-end">
+                                <button class="btn btn-agregar rounded-pill mb-4">Añadir</button>
+                            </div>
+
+                            <hr>
+                        </div>
+
+                        <div id="titular" class="row">
+                            <h2 class="fw-bold text-ministerio mt-4 mb-5">02. Datos del denunciante</h2>
+                            <div class="separador text-white">-</div>
+                            <h3 class="fw-bold my-3">Datos del titular</h3>
+
+                            <div class="col-12 mt-4">
+                                <label class="form-label" for="nombre">¿Sos el titular del producto o
+                                    servicio?
+                                    <br> <span class="fw-light">Si no lo sos, indicanos el nombre y el apellido del
+                                        titular.</span>
+                                </label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="" id="" value="option1">
+                                    <label class="form-check-label" for="si">Sí</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="" id="" value="option2">
+                                    <label class="form-check-label" for="no">No</label>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <label class="form-label" for="nombretitular">Nombre/s</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label" for="apellidotitular">Apellido/s</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <label class="form-label" for="nombre">¿Usas o usaste el producto o
+                                    servicio? / <br class="d-md-none">
+                                    ¿Sos el usuario?
+                                    <br> <span class="fw-light"> Si no sos usuario, indicanos los datos de quién lo
+                                        es.</span>
+                                </label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="" id="" value="option1">
+                                    <label class="form-check-label" for="si">Sí</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="" id="" value="option2">
+                                    <label class="form-check-label" for="no">No</label>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <label class="form-label" for="doc">Número de documento*</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label mb-4 pb-2 mb-md-2 pb-md-0" for="sexo">Sexo*</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+
+                            <div class="separador text-white mt-3">-</div>
+
+                            <h3 class="fw-bold mt-4 mb-3">Datos adicionales del denunciante</h3>
+
+                            <div class="col-6 ">
+                                <label class="form-label" for="doc">Prefijo*</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-6 ">
+                                <label class="form-label" for="doc">Número*</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+
+                            <div class="col-6">
+                                <label class="form-label" for="fechanac">Fecha de nacimiento*</label>
+                                <input id="startDate" class="form-control" type="date" />
+                            </div>
+
+                            <div class="separador text-white mt-3">-</div>
+                            <h3 class="fw-bold mt-4 mb-3">Domicilio</h3>
+
+                            <div class="col-12">
+                                <label class="form-label" for="calle">Calle*</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <label class="form-label" for="calle">Altura*</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <label class="form-label" for="piso">Piso</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <label class="form-label" for="dpto">Dpto.</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <label class="form-label" for="cp">CP*</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="localidadprovincia">Localidad /
+                                    Provincia*</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+
+                            <hr class="mt-4 mb-3">
+                        </div>
+
+                        <div id="datosreclamo" class="row">
+                            <h2 class="fw-bold text-ministerio mt-4 mb-4">03. Datos del reclamo</h2>
+                            <div class="separador text-white">-</div>
+
+                            <div class="col-12">
+                                <label class="form-label" for="">Modalidad de compra*</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label" for="">Localidad de compra o contratación*</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label" for="">Localidad dónde fue entregado el producto o se
+                                    presta el servicio*</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label" for="">Número de reclamo del proveedor</label> <br>
+                                <span>*Si ya realizaste un reclamo ante el proveedor, por favor ingrésa el
+                                    número
+                                    aquí</span>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+
+                            <hr class="mt-4 mb-3">
+                        </div>
+
+                        <div id="reclamo" class="row">
+                            <h2 class="fw-bold text-ministerio mt-4 mb-5">04. Reclamo</h2>
+                            <div class="separador text-white">-</div>
+                            <h3 class="fw-bold my-3">Descripción de la denuncia</h3>
+
+                            <div class="col-12 regularFw">
+                                <p>- Describí los hechos y motivos de tu reclamo en una línea de tiempo breve.</p>
+                                <p>- Informa con claridad cuál es el producto o servicio que adquiriste.</p>
+                                <p>- Explica cuáles son los puntos donde el proveedor habría incumplido con los
+                                    términos
+                                    convenidos.</p>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                    placeholder="Aquí tienes un ejemplo de cómo hacer tu denuncia.&#10; &#10;Adquirí en fecha un celular en el comercio, a la semana dejó de funcionar. Lo llevé al servicio técnico y no me dan respuesta desde que lo dejé para su reparación. Al dejarlo, me dijeron que la reparación no demoraría más de veinte días y llevo treinta días esperando.&#10;&#10;También puede ser: Tengo los servicios de internet y telefonía con el proveedor X, Nro. de cliente XXXXXX . Estoy sin servicio desde hace un mes y medio. Llame tres veces a la compañía registrando mis reclamos y solicitando asistencia técnica. Aún no han reestablecido el servicio."
+                                    rows="12"></textarea>
+                                <p class="my-3">El mínimo es de 250 caracteres, te faltan:</p>
+                            </div>
+
+                            <div class="separador text-white mt-3">-</div>
+                            <h3 class="fw-bold mt-4 mb-3">¿Cómo esperás que se resuelva?</h3>
+                            <p class="mt-3 mb-4">Podés seleccionar mas de una opción</p>
+
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="" value="">
+                                        <label class="form-check-label" for="">Cambio de producto</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 px-md-0">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="" value="">
+                                        <label class="form-check-label" for="">Bonificación de abonado</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="" value="">
+                                        <label class="form-check-label" for="">Devolución de dinero</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 px-md-0">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="" value="">
+                                        <label class="form-check-label" for="">Reparación producto<br
+                                                class="d-md-none">/servicio
+                                            técnico</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="" value="">
+                                        <label class="form-check-label" for="">Anulación del contrato</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 px-md-0">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="" value="">
+                                        <label class="form-check-label" for="">Otro</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <p class="mt-3 mb-4">Explicá las pretensiones de tu reclamo.</p>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+
+                            <hr class="mt-5 mb-3">
+                        </div>
+
+                        <div id="organismos" class="row">
+                            <h2 class="fw-bold text-ministerio mt-4 mb-4">05. Reclamo ante otros organismos</h2>
+                            <div class="col-12">
+                                <label class="form-label" for="">¿Ya realizaste el reclamo ante un orgenismo
+                                    gubernamental?</label>
+                                <br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id=""
+                                        value="">
+                                    <label class="form-check-label" for="">Si</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id=""
+                                        value="">
+                                    <label class="form-check-label" for="">No</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label" for="localidadprovincia">¿En qué organismo hiciste el
+                                    reclamo?*</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-5">
+                                <label class="form-label" for="localidadprovincia">Número de reclamo</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+                            <div class="col-md-7">
+                                <label class="form-label" for="localidadprovincia">¿En qué situación se encuentra
+                                    ese
+                                    reclamo?</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Seleccione</option>
+                                </select>
+                            </div>
+
+
+                            <hr class="mt-4 mb-3">
+                        </div>
+
+                        <div id="documentacion" class="row">
+                            <h2 class="fw-bold text-ministerio mt-4 mb-3">06. Documentación</h2>
+                            <h4 class="fw-bold mt-4 mb-3">Documentos</h4>
+                            <p>-Si tenés una factura de compra, adjuntala aquí.</p>
+                            <p>-Recordá que tenés que llevar los originales a la audiencia.</p>
+                            <p>-Podés adjuntar hasta 10 documentos de tipo pdf, word, jpg y png.</p>
+
+                            <input class="form-control mx-3" type="file" id="formFile">
+                            <div class="text-end">
+                                <button class="btn btn-agregar rounded-pill">Añadir</button>
+                            </div>
+
+                            <hr class="mt-4 mb-3">
+                        </div>
+
+                        <div id="conciliacion" class="row">
+                            <h2 class="fw-bold text-ministerio mt-4 mb-4">07. Conciliación privada COPREC</h2>
+                            <div class="col-12">
+                                <label class="form-label" for="nombretitular">N° de Matrícula del
+                                    conciliador</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="nombretitular">Descripción detallada</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            </div>
+
+                            <hr class="mt-5 mb-3">
+                        </div>
+
+
+                        <div id="submitForm" class="row my-4">
+                            <div class="col-4 col-md-6">
+                                <button class="btn btn-secondary rounded-pill">Cancelar</button>
+                            </div>
+                            <div class="col-8 col-md-6 text-end">
+                                <button id="submitbtn" type="submit" class="btn btn-success rounded-pill">Enviar
+                                    reclamo</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+        </div>
+
+
+    </main>
+
+    <footer id="footer-ministerioDesarrollo">
+        <div class="container">
+            <div class="row">
+                <div id="footerColUno" class="col-8 d-flex align-items-center">
+                    <img src="img/logoMinisterioBlanco.svg" class="logoHeader" alt="Logo Ministerio">
+                </div>
+                <div id="footerColDos" class="col-4 text-end">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
